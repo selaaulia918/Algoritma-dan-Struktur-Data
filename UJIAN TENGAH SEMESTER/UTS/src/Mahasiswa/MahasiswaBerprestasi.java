@@ -46,7 +46,6 @@ public class MahasiswaBerprestasi {
         if (right >= left) {
             mid = (left + right) / 2;
             if (cari == ListMhs[mid].ipk) {
-                System.out.println("Ditemukan Mahasiwa dengan IPK : " + ListMhs[mid].ipk);
                 return (mid);
             } else if (ListMhs[mid].ipk > cari) {
                 return FindBinarySearch(cari, left, mid - 1);

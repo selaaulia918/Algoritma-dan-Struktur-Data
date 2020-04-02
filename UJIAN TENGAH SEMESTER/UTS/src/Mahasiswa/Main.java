@@ -43,11 +43,19 @@ public class Main {
         data.tampil();
         
         System.out.println("===============================================================");
-        System.out.println("|             CARI DATA MAHASISWA DENGAN IPK                  |");
+        System.out.println("|                CARI MAHASISWA DENGAN IPK                    |");
         System.out.println("===============================================================");
         double cari;
-        System.out.println("Masukkan data yang ingin dicari : ");
+        System.out.print("Masukkan data yang ingin dicari : ");
         cari = s.nextDouble();
-        data.FindBinarySearch(cari, jumMhs, jumMhs);
+        System.out.println("---------------------------------------------------------------");
+        double result = data.FindBinarySearch(cari, 0, jumMhs-1);
+        if (result == -1) 
+            System.out.println("Tidak Ditemukan Mahasiswa dengan IPK "); 
+        else
+            System.out.println("Ditemukan Mahasiswa dengan IPK  " +  cari);
+        System.out.println("================================================================");
+        System.out.println("|          TERIMA KASIH TELAH MENGGUNAKAN PROGRAM INI          |");
+        System.out.println("================================================================");
     }
 }
