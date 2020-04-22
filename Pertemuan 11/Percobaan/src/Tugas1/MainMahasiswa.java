@@ -20,7 +20,7 @@ public class MainMahasiswa {
         System.out.println("3. Cari");
         System.out.println("4. Print");
         System.out.println("5. Keluar");
-        System.out.println("+ +");
+        System.out.println("=====================================");
         System.out.print("Pilih menu sesuai keinginan Anda : ");
     }
 
@@ -30,7 +30,7 @@ public class MainMahasiswa {
         System.out.println("2. Add Index");
         System.out.println("3. Add Key");
         System.out.println("4. Add Last");
-        System.out.println("+ +");
+        System.out.println("=====================================");
         System.out.print("Pilih menu sesuai keinginan Anda : ");
     }
 
@@ -40,7 +40,7 @@ public class MainMahasiswa {
         System.out.println("2. Hapus Key");
         System.out.println("3. Hapus First");
         System.out.println("4. Clear");
-        System.out.println("+ +");
+        System.out.println("=====================================");
         System.out.print("Pilih menu sesuai keinginan Anda : ");
     }
 
@@ -50,7 +50,7 @@ public class MainMahasiswa {
         System.out.println("2. Cari Key");
         System.out.println("3. Get First");
         System.out.println("4. Get Last");
-        System.out.println("+ +");
+        System.out.println("=====================================");
         System.out.print("Pilih menu sesuai keinginan Anda : ");
     }
 
