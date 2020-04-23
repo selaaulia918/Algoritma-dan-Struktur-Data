@@ -16,3 +16,11 @@
 <img src="6.PNG">
 
 ## Flowchart
+<img src="7.jpeg">
+Terdapat Flowchart Node Class, fungsi Node dan LinkedLists Class 
+<img src="8.jpeg">
+Terdapat Flowchart fungsi isEmpty, fungsi addFirst, fungsi add yang merupakan bagian dari LinkedLists Class
+<img src="9.jpeg">
+Terdapat flowchart Fungsi clear, fungsi print yang merupakan bagian dari LinkedLists Class
+<img src="10.jpeg">
+Terdapat flowchart Main class
